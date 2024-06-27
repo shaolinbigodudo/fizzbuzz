@@ -1,0 +1,45 @@
+:root{
+    --color-text: rgb(255, 28, 74);
+    --color-background: #3a0ca3
+}
+
+
+body{
+    background: var(--color-background);
+    color: var(--color-text);
+    font-family: "Archivo Black", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1,5rem;
+
+}
+h1{
+    font-family: "Archivo Black", sans-serif;
+}
+
+.header, .info, .form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.info{
+    line-height: 0;
+}
+.header{
+    background: #4cc9f0
+}
+
+.info{
+    background: #fee440
+}
+
+.button-container{
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    margin-top: 1rem;
+    
+
+}
+
+

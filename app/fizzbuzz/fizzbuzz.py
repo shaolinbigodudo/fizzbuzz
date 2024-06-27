@@ -7,3 +7,4 @@ def fizzbuzz(num:int):
         return 'buzz'
     else:
         return num
+    
